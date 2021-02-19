@@ -1,3 +1,5 @@
 from django.contrib import admin
+from backend.manage_users.models import Profile, Guild
 
-# Register your models here.
+admin.site.register(Profile)
+admin.site.register(Guild)
